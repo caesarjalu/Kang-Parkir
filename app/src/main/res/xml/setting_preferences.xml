@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        app:key="parking_name"
+        app:title="Nama Parkiran"
+        app:defaultValue="Parkir Lorem Ipsum"
+        app:useSimpleSummaryProvider="true"/>
+
+    <EditTextPreference
+        app:key="parking_price"
+        android:inputType="number"
+        app:title="Harga Parkir"
+        app:defaultValue="2000"
+        app:useSimpleSummaryProvider="true"/>
+
+</PreferenceScreen>
